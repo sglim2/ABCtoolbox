@@ -6,13 +6,13 @@
 #include "global.h"
 #include "my_cstring.h"
 #include <fstream>
-#include <iostream.h>
+#include <iostream>
 #include <vector>
 #include "newmat.h"
 #include "newmatap.h"
 #include "newmatio.h"
 //-----------------------
-#ifdef _GCC_
+#ifdef __GNUG__
    #include <unistd.h>
    #include <sys/types.h>
    #include <sys/wait.h>

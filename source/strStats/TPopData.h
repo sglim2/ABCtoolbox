@@ -12,7 +12,7 @@
 #include "TException.h"
 #include <strstream>
 #include <fstream>
-#include <iostream.h>
+#include <iostream>
 #include <vector>
 #include "math.h"
 

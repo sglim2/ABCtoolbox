@@ -121,7 +121,7 @@
 //   }
 
    #ifdef WANT_STREAM
-      #include <iostream.h>
+      #include <iostream>
       #include <iomanip.h>
    #endif
    #ifdef WANT_MATH
@@ -143,7 +143,7 @@
 #ifdef __ZTC__                          // Zortech
    #include <stdlib.h>
    #ifdef WANT_STREAM
-      #include <iostream.hpp>
+      #include <iostream>
       #include <iomanip.hpp>
       #define flush ""                  // not defined in iomanip?
    #endif
@@ -166,7 +166,7 @@
 #if defined __BCPLUSPLUS__ || defined __TURBOC__  // Borland or Turbo
    #include <stdlib.h>
    #ifdef WANT_STREAM
-      #include <iostream.h>
+      #include <iostream>
       #include <iomanip.h>
    #endif
    #ifdef WANT_MATH
@@ -190,7 +190,7 @@
 #ifdef __GNUG__                         // Gnu C++
    #include <stdlib.h>
    #ifdef WANT_STREAM
-      #include <iostream.h>
+      #include <iostream>
       #include <iomanip.h>
    #endif
    #ifdef WANT_MATH
@@ -212,7 +212,7 @@
 #ifdef __WATCOMC__                      // Watcom C/C++
    #include <stdlib.h>
    #ifdef WANT_STREAM
-      #include <iostream.h>
+      #include <iostream>
       #include <iomanip.h>
    #endif
    #ifdef WANT_MATH
@@ -235,7 +235,7 @@
 #ifdef macintosh                        // MPW C++ on the Mac
 #include <stdlib.h>
 #ifdef WANT_STREAM
-#include <iostream.h>
+#include <iostream>
 #include <iomanip.h>
 #endif
 #ifdef WANT_MATH
@@ -257,7 +257,7 @@
 #ifdef use_float_h                      // use float.h for precision values
 #include <stdlib.h>
 #ifdef WANT_STREAM
-#include <iostream.h>
+#include <iostream>
 #include <iomanip.h>
 #endif
 #ifdef WANT_MATH
@@ -281,7 +281,7 @@
 #define ATandT
 #include <stdlib.h>
 #ifdef WANT_STREAM
-#include <iostream.h>
+#include <iostream>
 #include <iomanip.h>
 #endif
 #ifdef WANT_MATH

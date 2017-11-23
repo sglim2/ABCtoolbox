@@ -1,6 +1,6 @@
 CC := g++
 CFLAGS := -Wall -g
-TARGET := ABCestimator
+TARGET := linearTransformer
 
 SRCS := $(wildcard *.cpp)
 OBJS := $(patsubst %.cpp,%.o,$(SRCS))

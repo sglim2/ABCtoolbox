@@ -2,13 +2,13 @@
 
 
 #include "TSim.h"
-#ifdef _GCC_
+#ifdef __GNUG__
    #include <unistd.h>
    #include <sys/types.h>
    #include <sys/wait.h>
    #include <errno.h>
 #else
-	#include <process.h>
+	#include <process>
   //	#include <sys/wait.h>
 #endif
 //---------------------------------------------------------------------------

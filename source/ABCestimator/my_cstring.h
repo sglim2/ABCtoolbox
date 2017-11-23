@@ -3,7 +3,7 @@
 
 #include <stdlib.h>
 #include <string.h>   //for functions strlen strcmp strchr
-#include <iostream>  //for << operator
+#include <iostream> //for << operator
 #include <fstream>   //for read_token
 #include <stdio.h>    //for sprint
 using namespace std;

@@ -4,14 +4,14 @@
 #include "TStandardSim.h"
 #include "TPmcSim.h"
 
-#ifdef _GCC_
+#ifdef __GNUG__
 	#include <unistd.h>
 	#include <sys/types.h>
 	#include <sys/wait.h>
 	#include <errno.h>
 	#include <time.h>
 #else
-	#include <process.h>
+	#include <process>
 #endif
 
 

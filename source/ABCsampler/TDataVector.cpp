@@ -134,7 +134,7 @@ TDataVector::TDataVector(TParameters* gotParameters, TInputFileVector* gotInputF
 	  summarizeDataObjects();
 
 	//scripts before and after sumstat calculation....
-	#ifdef _GCC_
+	#ifdef __GNUG__
     //script before
     my_string script=gotParameters->getParameter("launchBeforeSS", 0);
     if(script!=""){

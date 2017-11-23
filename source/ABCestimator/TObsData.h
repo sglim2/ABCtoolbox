@@ -5,7 +5,7 @@
 //---------------------------------------------------------------------------
 #include <strstream>
 #include <fstream>
-#include <iostream.h>
+#include <iostream>
 #include "my_cstring.h"
 #include "newmat.h"
 #include "newmatio.h"

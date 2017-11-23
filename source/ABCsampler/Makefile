@@ -1,6 +1,6 @@
 CC := g++
-CFLAGS := -Wall -g
-TARGET := ABCestimator
+CFLAGS := -Wall -g 
+TARGET := ABCsampler
 
 SRCS := $(wildcard *.cpp)
 OBJS := $(patsubst %.cpp,%.o,$(SRCS))
