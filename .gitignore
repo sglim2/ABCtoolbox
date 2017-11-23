@@ -1,0 +1,6 @@
+bin/ABCestimator
+bin/ABCsampler
+bin/cumuldens
+bin/glm
+bin/linearTransformer
+bin/strStats
