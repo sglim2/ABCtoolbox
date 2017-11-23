@@ -81,7 +81,7 @@ TInputFileVector::TInputFileVector(TParameters* gotParameters, ofstream* gotLogF
 
 
 	//script/program before and after each simulation
-	#ifdef __GNUG__
+	#ifdef __linux__
     //script before
     my_string scriptbeforesimulation=gotParameters->getParameter("launchBeforeSim", 0);
     if(scriptbeforesimulation!=""){

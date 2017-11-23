@@ -5,7 +5,7 @@
 
 #include "stat_utils.h"
 
-//#ifdef __GNUG__
+//#ifdef __linux__
    #include <stdlib.h>
    #include <unistd.h>
    #include <sys/time.h>
@@ -81,7 +81,7 @@ double ran3(long *idum)
 //This procedure will initialize ran3 with a random value
 //		if seed < 0 , then seed will be used to seed ran3
 //    if seed >= 0 , a random seed less than 100,000 will be used to seed ran3
-#ifdef __GNUG__
+#ifdef __linux__
 int my_rand(){
 	//randomize();
 	//return rand();
@@ -142,7 +142,7 @@ long rand_long(const long& max_val) {
 //return a seed for the gcc version
 
 long get_randomSeedFromCurrentTime(){
-#ifdef __GNUG__
+#ifdef __linux__
    long seed;
    struct timeval tv ;
    struct timezone tz;

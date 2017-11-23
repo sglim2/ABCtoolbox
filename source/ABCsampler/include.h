@@ -187,7 +187,7 @@
    #undef DEFAULT_HEADER
 #endif
 
-#ifdef __GNUG__                         // Gnu C++
+#ifdef __linux__                         // Gnu C++
    #include <stdlib.h>
    #ifdef WANT_STREAM
       #include <iostream>

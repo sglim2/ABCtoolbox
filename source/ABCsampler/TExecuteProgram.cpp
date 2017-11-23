@@ -28,7 +28,7 @@ TExecuteProgram::TExecuteProgram(my_string exe){
 int TExecuteProgram::execute(){
 	double returnValue=0.0;
 		try{
-			#ifdef __GNUG__
+			#ifdef __linux__
 			// here should be a test if the file exists.....
 			int pid, status;
 			pid = fork();

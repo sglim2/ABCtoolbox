@@ -14,7 +14,7 @@ double LogUniformRandom (const double& a, const double& b);
 double NormalRandom (const double& dMean, const double& dStdDev);
 double LogNormalRandom (const double& dMean, const double& dStdDev);
 
-#ifndef __GNUG__
+#ifndef __linux__
 float gamdev(int ia, long *idum);
 #endif
 

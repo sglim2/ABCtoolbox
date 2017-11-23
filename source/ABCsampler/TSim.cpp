@@ -2,7 +2,7 @@
 
 
 #include "TSim.h"
-#ifdef __GNUG__
+#ifdef __linux__
    #include <unistd.h>
    #include <sys/types.h>
    #include <sys/wait.h>
