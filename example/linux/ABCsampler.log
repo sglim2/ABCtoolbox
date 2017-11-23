@@ -1,0 +1,43 @@
+ABCsampler Logfile
+*******************
+Reading inputfile 'example_DNA_and_STR.input' ..... done!
+Random generator initialized with seed -407855
+Performing a Standard Simulation
+
+Filenames
+**********
+Prefix for output files: example_output
+Name of file with prior definitions: example_DNA_and_STR.est
+Reading priors and rules 'example_DNA_and_STR.est' ... done:
+ -6 Priors
+ -3 Combined Priors
+ -1 Rules
+Names of the simulation input files:
+ -'exampleDNA.par'
+ -'exampleSTR.par'
+Corresponding names of the temporal simulation input files:
+ -'exampleDNA-temp.par'
+ -'exampleSTR-temp.par'
+Using simulation program: 'simcoal2'
+
+Initialization
+**********
+create first input file and initialize ....
+The following file is read to get the summary statistics: 'summary_stats_temp.txt'
+Reading observed data file 'exampleDNA.obs' ... done, read 5 Data
+Reading observed data file 'exampleSTR.obs' ... done, read 8 Data
+File 'exampleDNA-temp_0.arp' is located here: 'exampleDNA-temp/exampleDNA-temp_0.arp':
+File 'exampleSTR-temp_0.arp' is located here: 'exampleSTR-temp/exampleSTR-temp_0.arp':
+Using SumStat program: 'arlsumstat'
+  -number of observed Statistics: 5
+  -number of simulated Statistics: 24
+  -number of observed Statistics: 8
+  -number of simulated Statistics: 25
+All Statistics are written in one single Outputfile.
+Number of simulations to perform: 100
+Number of repeats per parameter vector is set to: 1
+
+Simulations
+**********
+Loop is started.....
+0/100

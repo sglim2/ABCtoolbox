@@ -1,0 +1,18 @@
+//Inputfile for the program ABCsampler
+//-----------------------------------------------------------------------
+samplerType standard 
+//-----------------------------------------------------------------------
+estName example.est
+obsName exampleSTR.obs
+outName example_output
+separateOutputFiles 0
+simDataName exampleSTR-temp_0.arp
+nbSims 10000
+writeHeader 1
+simulationProgram simcoal2
+simInputName exampleSTR.par
+simParam SIMINPUTNAME#1#1#0
+sumStatProgram arlsumstat
+sumStatParam SIMDATANAME#SSFILENAME#0#1
+
+ 

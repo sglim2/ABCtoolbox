@@ -1,0 +1,20 @@
+//Inputfile for the program ABCsampler
+//-----------------------------------------------------------------------
+samplerType standard 
+//-----------------------------------------------------------------------
+samplerType standard
+//-----------------------------------------------------------------------
+estName example_DNA_and_STR.est 
+obsName exampleDNA.obs;exampleSTR.obs
+simDataName exampleDNA-temp_0.arp;exampleSTR-temp_0.arp
+outName example_output
+separateOutputFiles 0
+nbSims 100	
+writeHeader 1	
+simulationProgram simcoal2	
+simInputName exampleDNA.par;exampleSTR.par 
+simParam SIMINPUTNAME#1#0#0;SIMINPUTNAME#1#1#0
+sumStatProgram arlsumstat
+sumStatParam SIMDATANAME#SSFILENAME#0#1
+
+ 
